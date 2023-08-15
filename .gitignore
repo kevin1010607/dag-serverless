@@ -1,0 +1,11 @@
+# vscode
+.vscode
+
+# dag file
+.dag
+
+# service file
+.service
+
+# python compile file
+__pycache__

@@ -1,0 +1,15 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: <SERVICE_NAME>
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - image: docker.io/<DOCKER_USERNAME>/service
+        env:
+        - name: SERVICE_NAME
+          value: <SERVICE_NAME>
+        - name: EXEC_TIME
+          value: <EXEC_TIME>
