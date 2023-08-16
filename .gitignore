@@ -9,3 +9,6 @@
 
 # python compile file
 __pycache__
+
+# log file
+*.log
